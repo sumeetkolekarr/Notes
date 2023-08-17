@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inline, Internal & External CSS</title>
+    <!-- Internal CSS -->
+    <style>
+        p{
+            color: blueviolet;
+            background-color: turquoise;
+        }
+    </style>
+    <!-- External CSS -->
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <!-- Example of Inline CSS -->
+    <!-- Not the Best Way to use CSS -->
+    <!-- Priority Wise CSS Types -->
+    <!-- Inline CSS > Internal CSS > External CSS -->
+    <p style="color: chartreuse; background-color: tomato;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui veniam enim quam laudantium, quas ut laborum unde facere saepe aperiam mollitia nostrum molestias accusamus perspiciatis quasi consequuntur ea optio. Tempora.</p>
+    <!-- CSS which is written afterwards any preceding CSS takes the precedence after the first CSS -->
+    <!-- To prioritize any CSS just pass !important after the property -->
+</body>
+</html>
