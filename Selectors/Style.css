@@ -1,12 +1,20 @@
+/* Element Selector */
 p{
     color: red;
 }
 
+/* ID Selector */
 #blu{
     color: blueviolet;
 
 }
 
+/* Class Selector */
 .bg{
     background-color: turquoise;
+}
+
+/* Grouping Selector */
+footer, span{
+    background-color: pink;
 }
