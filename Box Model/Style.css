@@ -1,3 +1,8 @@
+*{
+    /* Prevents a box to add additional padding and strictly applies width given in the property */
+    box-sizing: border-box;
+}
+
 .container{
     background-color: rgb(231, 230, 241);
     border: 3px solid rgb(64, 6, 119);
@@ -5,3 +10,10 @@
     padding: 79px;
     margin: 34px;
 }
+
+/* Other annotations for Padding/Margin */
+
+/* The below code can be remembered with the word Turbulence */
+/* padding: top right bottom left; */
+
+/* padding: y(top/bottom) x(left/right); */
