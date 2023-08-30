@@ -1,0 +1,31 @@
+*{
+    color: aliceblue;
+    background-color: rgb(28, 28, 28);
+}
+
+#fp{
+    border-color: blue;
+    height: 4rem;
+    width: 4rem;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: .5rem;
+}
+
+.fp{
+    width: 50vw;
+    height: 50vh;
+    border: 2px dotted palegreen;
+    border-radius: .5rem;
+}
+
+.imgp{
+    height: 50vh;
+    width: 50vw;
+    border: 2px solid paleturquoise;
+    border-radius: .5rem;
+    background-image: url('https://img.freepik.com/free-vector/instagram-icon_1057-2227.jpg?w=740&t=st=1693419564~exp=1693420164~hmac=713bdd243fc93c68fbd6743ef72f183562f2d34ebd1f66109e48ce34a3bf870f');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: auto;
+}

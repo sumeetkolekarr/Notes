@@ -1,3 +1,7 @@
 p{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 23px; /*Pixel = 1/96th of Inch */
+    line-height: 1.3em;
+    font-weight: bold;
+    font-style: italic;
 }
