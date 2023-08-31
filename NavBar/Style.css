@@ -1,0 +1,12 @@
+.navbar{
+    background-color: red;
+}
+
+.navbar ul{
+
+}
+
+.navbar li{
+    float: left;
+    list-style: none;
+}
