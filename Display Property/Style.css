@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+}
+
+.Bunny{
+    width: 10rem;
+    border-radius: 50%;
+    margin: auto;
+    display: block;
+}
+
+h3{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    margin: 0px;
+}
+
+header{
+    border: 2px solid red;
+    margin: auto;
+    width: 1200px;
+}
+
+.box{
+    border: 2px solid violet;
+    background-color: paleturquoise;
+    margin: 4px;
+    padding: 23px;
+    display: block;
+    width: 32%;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+.container{
+    width: 1200px;
+    margin: auto;
+}

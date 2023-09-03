@@ -1,0 +1,33 @@
+/* Position: Static(Default), Absolute, Relative, Fixed, Sticky */
+
+body{
+    height: 1800px;
+}
+
+.box{
+    border: 2px solid violet;
+    width: 150px;
+    height: 150px;
+    margin: 2px;
+    display: inline-block;
+}
+
+/* Static: Can't Move any Object */
+/* Relative: Relative to it's Normal Position and will leave a gap at it's normal position*/
+/* Absolute: Relative to the parent */
+/* Fixed:  Positions the element relative to the browser window*/
+/* Sticky:  Positions the element relative to the parent element*/
+
+#box3{
+    position: sticky;
+    /* top: 34px;
+    left: 134px; */
+    /* right: 4px; */
+    top: 3px;
+}
+
+.container{
+    border: 2px solid black;
+    background-color: palegoldenrod;
+    height: 1022px;
+}
